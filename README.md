@@ -1,6 +1,6 @@
 # ts-bitstream
 BitStream (BS) используется для экономии данных, а так же для сериализации и десереализации данных передаваемых по сети или вообще где угодно (такой же bs использует сетевые движки RakNet, Netty)
-ts```
+```typescript
 import BitStream from "./bitstream/BitStream";
 import AESSecure from "./bitstream/secure/AESSecure";
 import { StringByteEncode } from "./bitstream/type/string/StringByteEncode";
